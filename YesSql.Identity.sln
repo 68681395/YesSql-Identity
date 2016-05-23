@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{583192F0-2EDD-4C24-B26C-824D99616E2A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		LICENSE.txt = LICENSE.txt
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D6E778BD-4D0E-4E29-843C-8BB38407A341}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "YesSql.AspNetCore.Identity", "src\YesSql.AspNetCore.Identity\YesSql.AspNetCore.Identity.xproj", "{361479E5-D172-46BA-9E9D-C916F78F9966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{463B26CD-A8B1-439F-AA3D-BEDB20F898B6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "YesSql.AspNetCore.Identity.Test", "test\YesSql.AspNetCore.Identity.Test\YesSql.AspNetCore.Identity.Test.xproj", "{9B01BE7D-6038-410D-A3E5-0E92FEAD8C20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{361479E5-D172-46BA-9E9D-C916F78F9966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361479E5-D172-46BA-9E9D-C916F78F9966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361479E5-D172-46BA-9E9D-C916F78F9966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361479E5-D172-46BA-9E9D-C916F78F9966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B01BE7D-6038-410D-A3E5-0E92FEAD8C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B01BE7D-6038-410D-A3E5-0E92FEAD8C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B01BE7D-6038-410D-A3E5-0E92FEAD8C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B01BE7D-6038-410D-A3E5-0E92FEAD8C20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{361479E5-D172-46BA-9E9D-C916F78F9966} = {D6E778BD-4D0E-4E29-843C-8BB38407A341}
+		{9B01BE7D-6038-410D-A3E5-0E92FEAD8C20} = {463B26CD-A8B1-439F-AA3D-BEDB20F898B6}
+	EndGlobalSection
+EndGlobal
